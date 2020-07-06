@@ -7,7 +7,7 @@
 #-                            compare.sh
 #-
 #-  Author  : Isaías Gatjens M - Twitter @igatjens
-#-  Version : v0.1
+#-  Version : v0.2
 #-  License : Distributed under the terms of GNU GPL version 2 or later
 #-
 #-
