@@ -72,6 +72,9 @@ Run **`backup-resources.sh`** and it will create a copy of all the projects in t
 ## Compare
 Run **`compare.sh`** to compare resources between backups and the current translation, and find the resources that have changes.
 
+## Generate translations
+Run **`generate-translations`** to generate the .qm and .mo binary files, these are the files used in the system.
+
 
 
 # Español
@@ -140,3 +143,6 @@ Ejecute **`backup-resources.sh`** y creará una copia de todos los proyectos en 
 
 ## Comparar
 Ejecure **`compare.sh`** para comparar recursos entre los respaldos y la traducción actual, y busca los recursos que tienen cambios.
+
+## Generar traducciones
+Ejetute **`generate-translations`** para generar los archivos binarios .qm y .mo, estos son los archivos que se usan en el sistema.
