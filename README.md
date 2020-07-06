@@ -3,20 +3,25 @@ Tools to download, backup and compare translations of Transifex.
 
 Herramientas para descargar, respaldar y comparar traducciones de Transifex.
 
-<div>
-  <div style="float: left;">
-    <img src="https://raw.githubusercontent.com/igatjens/transifex-tools/master/screenshot/file_manager_0001.png" width="400px" height="auto" alt="1" border="0">
-  </div>
-  <div>
-    <img src="https://raw.githubusercontent.com/igatjens/transifex-tools/master/screenshot/file_manager_0004.png" width="400px" height="auto" alt="1" border="0">
-  </div>
-  <div style="float: left;">
-    <img src="https://raw.githubusercontent.com/igatjens/transifex-tools/master/screenshot/terminal_0002.png" width="400px" height="auto" alt="1" border="0">
-  </div>
-  <div>
-    <img src="https://raw.githubusercontent.com/igatjens/transifex-tools/master/screenshot/terminal_0010.png" width="400px" height="auto" alt="1" border="0">
-  </div>
-</div>
+<table style="width:100%">
+  <tr>
+    <th>
+      <img src="https://raw.githubusercontent.com/igatjens/transifex-tools/master/screenshot/file_manager_0001.png" width="400px" height="auto" alt="1" border="0">
+    </th>
+    <th>
+      <img src="https://raw.githubusercontent.com/igatjens/transifex-tools/master/screenshot/file_manager_0004.png" width="400px" height="auto" alt="1" border="0">
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/igatjens/transifex-tools/master/screenshot/terminal_0002.png" width="400px" height="auto" alt="1" border="0">
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/igatjens/transifex-tools/master/screenshot/terminal_0010.png" width="400px" height="auto" alt="1" border="0">
+    </td>
+  </tr>
+
+</table>
 
 
 # English
