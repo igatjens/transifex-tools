@@ -67,6 +67,11 @@ Create a folder where you will download the projects and copy the files there:
 2. `tx-configure.sh`
 3. `tx-download.sh`
 4. `backup-resources.sh`
+5. `compare.sh`
+6. `generate-translations`
+7. `os_translations.conf`
+8. `check_os_tranlations_config.sh`
+9. `patch-translations.sh`
 
 **`project.conf`** contains the list of projects, one project per line with the following format.
 
@@ -77,6 +82,15 @@ If you need to add or remove projects, edit **`project.conf`**.
 Run **`tx-configure.sh`** to configure all projects.
 
 The settings are saved in the folder **`.tx`**.
+
+** `os_translations.conf` ** contiene el índice que especifica:
+1. La ubicación de las traducciones descargadas desde
+transifex
+2. La ubicación de las traducciones que se parcharán.
+3. El nombre de la aplicación en transifex
+4. Si el nombre de la aplicación en transifex no coincide con el nombre de la aplicación en el sistema operativo, sé el nombre correcto usado en el sistema operativo.
+
+** `check_os_tranlations_config.sh` ** ayuda a encontrar errores en **` os_translations.conf` **.
 
 
 ## Download translations
@@ -143,6 +157,11 @@ Cree una carpeta donde vaya a descargar los proyectos y copie ahí los archivos:
 2. `tx-configure.sh`
 3. `tx-download.sh`
 4. `backup-resources.sh`
+5. `compare.sh`
+6. `generate-translations`
+7. `os_translations.conf`
+8. `check_os_tranlations_config.sh`
+9. `patch-translations.sh`
 
 **`project.conf`** contiene la lista de proyectos, un proyecto por línea con el siguiente formato.
 
@@ -153,6 +172,15 @@ Si necesita agregar o quitar proyectos, edite **`project.conf`**.
 Ejecute **`tx-configure.sh`** para configurar todos los proyectos.
 
 La configuración se guarda en la carpeta **`.tx`**.
+
+**`os_translations.conf`** contiene el índice que especifia:
+1. La ubicación de las traducciones descargadas desde
+transifex.
+2. La ubicación de las traducciones que se parcharán.
+3. El nombre de la aplicacion en transifex
+4. Si el nombre de la aplicación en transifex no conincide con el nombre de la aplicación en el sistema operativo, se agrea el nombre correcto usado en el sistema operativo.
+
+**`check_os_tranlations_config.sh`** ayuda a encontrar errores en **`os_translations.conf`**.
 
 
 ## Descargar traducciones
