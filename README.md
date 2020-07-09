@@ -106,12 +106,18 @@ Run **`backup-resources.sh`** and it will create a copy of all the projects in t
 ## Compare
 Run **`compare.sh`** to compare resources between backups and the current translation, and find the resources that have changes.
 
+
 ## Generate translations
 Run **`generate-translations.sh`** to generate the .qm and .mo binary files, these are the files used in the system.
+
 
 ## Patch Deepin translations
 Run **`patch-translations.sh`** to back up the .qm and .mo binary files, and then add the new translations to the
 operating system and Deepin applications.
+
+
+## Undo the last Deepin translation patch
+Run ** `undo_last_patch-translations.sh` ** to undo the last translation patch.
 
 
 
@@ -196,9 +202,15 @@ Ejecute **`backup-resources.sh`** y creará una copia de todos los proyectos en 
 ## Comparar
 Ejecure **`compare.sh`** para comparar recursos entre los respaldos y la traducción actual, y busca los recursos que tienen cambios.
 
+
 ## Generar traducciones
 Ejetute **`generate-translations.sh`** para generar los archivos binarios .qm y .mo, estos son los archivos que se usan en el sistema.
+
 
 ## Parchar traducciones de Deepin
 Ejetute **`patch-translations.sh`** para respaldar los archivos binarios .qm y .mo, y luego agregar las nuevas traducciones al 
 sistema operativo y a las aplicaciones de Deepin.
+
+
+## Deshacer el úlimo parche de traducciones de Deepin
+Ejetute **`undo_last_patch-translations.sh`** para deshacer el último parche de traducciones.
