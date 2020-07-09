@@ -1,7 +1,7 @@
 # transifex-tools
-Tools to download, backup and compare translations of Transifex.
+Tools to download, backup compare and patch translations of Transifex.
 
-Herramientas para descargar, respaldar y comparar traducciones de Transifex.
+Herramientas para descargar, respaldar, comparar y parchar traducciones de Transifex.
 
 <table style="width:100%">
   <tr>
