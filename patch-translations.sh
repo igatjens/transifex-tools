@@ -46,58 +46,65 @@ for i in $LIST_OF_PATCH; do
 
 		QM_FILES=$(ls *.qm 2> /dev/null)
 		MO_FOLDERS=$( ls -d */ 2> /dev/null)
+
 		#echo $MO_FOLDERS
 
-		#si la carpeta de la aplicación existe
-		if [[ -d $DIR_SYSTEM ]]; then
+		#Si el destino no es /usr/share/locale/ entonces parche los archivos .qm
+		if [[ ! $( echo $DIR_SYSTEM | grep LC_MESSAGES )  ]]; then
 			#statements
-			#si encuentra archivos .qm
-			if [[ $QM_FILES ]]; then
+			#si la carpeta de la aplicación existe
+			if [[ -d $DIR_SYSTEM ]]; then
 				#statements
-				for NAME_FILE in $QM_FILES; do
+				#si encuentra archivos .qm
+				if [[ $QM_FILES ]]; then
 					#statements
-
-					FIX_NAME_FILE=""
-					QM_FILES_OS=""
-
-					#si hay FIX_APP_NAME aplicar FIX_APP_NAME
-					if [[ $FIX_APP_NAME ]]; then
+					for NAME_FILE in $QM_FILES; do
 						#statements
-						#echo Existe un fix_name
-						#echo j--- $NAME_FILE
-						TAIL_NAME_FILE=$( echo $NAME_FILE | sed "s|.*_|_|")
-						#echo tali $TAIL_NAME_FILE
-						FIX_NAME_FILE=$FIX_APP_NAME$TAIL_NAME_FILE
-						#echo full $FIX_NAME_FILE
-						QM_FILES_OS=$DIR_SYSTEM$FIX_NAME_FILE
 
-					else
-						QM_FILES_OS=$DIR_SYSTEM$NAME_FILE
-					fi
+						FIX_NAME_FILE=""
+						QM_FILES_OS=""
 
-					#Borrar el _en del nombre de archivo
-					#QM_FILES_OS=$( echo $QM_FILES_OS | sed "s|_en.qm|.qm|" )
+						#si hay FIX_APP_NAME aplicar FIX_APP_NAME
+						if [[ $FIX_APP_NAME ]]; then
+							#statements
+							#echo Existe un fix_name
+							#echo j--- $NAME_FILE
+							TAIL_NAME_FILE=$( echo $NAME_FILE | sed "s|.*_|_|")
+							#echo tali $TAIL_NAME_FILE
+							FIX_NAME_FILE=$FIX_APP_NAME$TAIL_NAME_FILE
+							#echo full $FIX_NAME_FILE
+							QM_FILES_OS=$DIR_SYSTEM$FIX_NAME_FILE
 
-					#si los archivos .qm existen en el sistema, haga un respaldo
-					if [[ -f $QM_FILES_OS ]]; then
-						#statements
-						echo Backup $QM_FILES_OS"_"$(date +%Y-%m-%d_%H.%M.%S)
-						sudo mv $QM_FILES_OS $QM_FILES_OS"_"$(date +%Y-%m-%d_%H.%M.%S)
-					else
-						echo Notice: The $QM_FILES_OS file does not exists 
-					fi
-					echo Copy $NAME_FILE → $QM_FILES_OS
-					sudo cp -u $NAME_FILE $QM_FILES_OS
+						else
+							QM_FILES_OS=$DIR_SYSTEM$NAME_FILE
+						fi
 
-				done
-					
+						#Borrar el _en del nombre de archivo
+						#QM_FILES_OS=$( echo $QM_FILES_OS | sed "s|_en.qm|.qm|" )
+
+						#si los archivos .qm existen en el sistema, haga un respaldo
+						if [[ -f $QM_FILES_OS ]]; then
+							#statements
+							echo Backup $QM_FILES_OS"_"$(date +%Y-%m-%d_%H.%M.%S)
+							sudo mv $QM_FILES_OS $QM_FILES_OS"_"$(date +%Y-%m-%d_%H.%M.%S)
+						else
+							echo Notice: The $QM_FILES_OS file does not exists 
+						fi
+						echo Copy $NAME_FILE → $QM_FILES_OS
+						sudo cp -u $NAME_FILE $QM_FILES_OS
+
+					done
+						
+				else
+					echo Notice: .qm files not found in $DIR_RESOURCES
+				fi
+
 			else
-				echo Notice: .qm files not found in $DIR_RESOURCES
+				echo Error: Folder $DIR_SYSTEM does not exist.
 			fi
-
-		else
-			echo Error: Folder $DIR_SYSTEM does not exist.
 		fi
+
+
 
 
 		if [[ $MO_FOLDERS ]]; then

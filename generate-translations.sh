@@ -52,7 +52,7 @@ for DIR_APPLICATION in $(ls -d */ | sed "s|/||g"); do
 	ST_FILES=$( echo $ALL_FILES | sed "s| |\n|g" | grep -E "\.[tT][sS]$" )		#Obtenter solo los archivos .ts
 	PO_FILES=$( echo $ALL_FILES | sed "s| |\n|g" | grep -E "\.[pP][oO]$" )		#Obtenter solo los archivos .po
 
-	echo "-------FLES---------"
+	echo "-------FILES-------"
 	echo ".ts: "$ST_FILES
 	echo -e ".po: "$PO_FILES"\n"
 
