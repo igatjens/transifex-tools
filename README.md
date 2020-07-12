@@ -57,7 +57,7 @@ Run the following command and shorten the transifex token when requested.
 
 `tx init --skipsetup`
 
-Thefile **`~/.transifexrc`** contains the token and its transifex access credentials, be careful and do not share it with anyone.
+**Thefile `~/.transifexrc` contains the token and its transifex access credentials, be careful and do not share it with anyone.**
 
 
 ## Create project repository
@@ -163,7 +163,7 @@ Ejecute el siguiente comando y peque el token de transifex cuando lo solicite.
 
 `tx init --skipsetup`
 
-El archivo **`~/.transifexrc`** contiene el token y sus credenciales de acceso a transifex, sea cuidadoso y no lo comparta con nadie.
+**El archivo `~/.transifexrc` contiene el token y sus credenciales de acceso a transifex, sea cuidadoso y no lo comparta con nadie.**
 
 
 ## Crear repositorio de proyectos
