@@ -24,6 +24,16 @@ if [[ -z $(which /usr/lib/qt5/bin/lrelease) ]]; then
 	exit 1
 fi
 
+#Comprobar si msgfmt está instalado - #Check if msgfmt are installed
+if [[ -z $(which msgfmt) ]]; then
+	#statements
+	echo "The msgfmt command is necessary to generate translations files."
+	echo "Install msgfmt with the following command."
+	echo "sudo apt install gettext"
+
+	exit 1
+fi
+
 DIR_TRANSLATIONS="translations"
 APPLICACION_NAME=""
 
