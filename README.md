@@ -61,7 +61,16 @@ Thefile **`~/.transifexrc`** contains the token and its transifex access credent
 
 
 ## Create project repository
-Create a folder where you will download the projects and copy the files there:
+
+Create a folder where you will download the translations and download the files by cloning the repository with the following command.
+
+`git clone https: // github.com / igatjens / transifex-tools.git`
+
+Assign scripts execution permissions with the following command.
+
+`cd transifex-tools / && chmod + x * .sh`
+
+The downloaded files are:
 
 1. `project.conf`
 2. `tx-configure.sh`
@@ -72,25 +81,26 @@ Create a folder where you will download the projects and copy the files there:
 7. `os_translations.conf`
 8. `check_os_tranlations_config.sh`
 9. `patch-translations.sh`
+10. `undo_last_patch-translations.sh`
 
-**`project.conf`** contains the list of projects, one project per line with the following format.
+** `project.conf` ** contains the project list, one project per line in the following format.
 
 `project_name = project_ URL`
 
-If you need to add or remove projects, edit **`project.conf`**.
+If you need to add or remove projects, edit ** `project.conf` **.
 
-Run **`tx-configure.sh`** to configure all projects.
+Run ** `tx-configure.sh` ** to configure all projects.
 
-The settings are saved in the folder **`.tx`**.
+The configuration is saved in the ** `.tx` ** folder.
 
-** `os_translations.conf` ** contiene el índice que especifica:
-1. La ubicación de las traducciones descargadas desde
-transifex
-2. La ubicación de las traducciones que se parcharán.
-3. El nombre de la aplicación en transifex
-4. Si el nombre de la aplicación en transifex no coincide con el nombre de la aplicación en el sistema operativo, sé el nombre correcto usado en el sistema operativo.
+** `os_translations.conf` ** contains the index you specify:
+1. The location of the translations downloaded from
+transifex.
+2. The location of the translations to be patched.
+3. The name of the application in transifex
+4. If the name of the application in transifex does not match the name of the application in the operating system, the correct name used in the operating system is added.
 
-** `check_os_tranlations_config.sh` ** ayuda a encontrar errores en **` os_translations.conf` **.
+** `check_os_tranlations_config.sh` ** helps find errors in **` os_translations.conf` **.
 
 
 ## Download translations
@@ -157,7 +167,16 @@ El archivo **`~/.transifexrc`** contiene el token y sus credenciales de acceso a
 
 
 ## Crear repositorio de proyectos
-Cree una carpeta donde vaya a descargar los proyectos y copie ahí los archivos:
+
+Cree una carpeta donde vaya a descargar las traducciones y descargue los archivo clonando el repositorio con el siguiente comando.
+
+`git clone https://github.com/igatjens/transifex-tools.git`
+
+Asigne permisos de ejecución a los scripts con el siquiente comando.
+
+`cd transifex-tools/ && chmod +x *.sh`
+
+Los archivos descargados son:
 
 1. `project.conf`
 2. `tx-configure.sh`
@@ -168,6 +187,7 @@ Cree una carpeta donde vaya a descargar los proyectos y copie ahí los archivos:
 7. `os_translations.conf`
 8. `check_os_tranlations_config.sh`
 9. `patch-translations.sh`
+10. `undo_last_patch-translations.sh`
 
 **`project.conf`** contiene la lista de proyectos, un proyecto por línea con el siguiente formato.
 
