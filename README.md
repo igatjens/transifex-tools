@@ -70,7 +70,7 @@ Assign scripts execution permissions with the following command.
 
 `cd transifex-tools/ && chmod +x *.sh`
 
-Run ** `tx-configure.sh` ** to configure all projects.
+Run **`tx-configure.sh`** to configure all projects.
 
 The configuration is saved in the ** `.tx` ** folder.
 
@@ -87,11 +87,11 @@ The downloaded files are:
 9. `patch-translations.sh`
 10. `undo_last_patch-translations.sh`
 
-** `project.conf` ** contains the project list, one project per line in the following format.
+**`project.conf`** contains the project list, one project per line in the following format.
 
 `project_name = project_ URL`
 
-If you need to add or remove projects, edit ** `project.conf` **.
+If you need to add or remove projects, edit **`project.conf`**.
 
 ** `os_translations.conf` ** contains the index you specify:
 1. The location of the translations downloaded from
@@ -100,7 +100,7 @@ transifex.
 3. The name of the application in transifex
 4. If the name of the application in transifex does not match the name of the application in the operating system, the correct name used in the operating system is added.
 
-** `check_os_tranlations_config.sh` ** helps find errors in **` os_translations.conf` **.
+**`check_os_tranlations_config.sh`** helps find errors in **`os_translations.conf`**.
 
 
 ## Download translations
