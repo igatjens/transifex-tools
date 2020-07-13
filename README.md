@@ -64,11 +64,11 @@ Run the following command and shorten the transifex token when requested.
 
 Create a folder where you will download the translations and download the files by cloning the repository with the following command.
 
-`git clone https: // github.com / igatjens / transifex-tools.git`
+`git clone https://github.com/igatjens/transifex-tools.git`
 
 Assign scripts execution permissions with the following command.
 
-`cd transifex-tools / && chmod + x * .sh`
+`cd transifex-tools/ && chmod +x *.sh`
 
 The downloaded files are:
 
