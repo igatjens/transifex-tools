@@ -70,6 +70,8 @@ Assign scripts execution permissions with the following command.
 
 `cd transifex-tools/ && chmod +x *.sh`
 
+Run ** `tx-configure.sh` ** to configure all projects.
+
 The downloaded files are:
 
 1. `project.conf`
@@ -88,8 +90,6 @@ The downloaded files are:
 `project_name = project_ URL`
 
 If you need to add or remove projects, edit ** `project.conf` **.
-
-Run ** `tx-configure.sh` ** to configure all projects.
 
 The configuration is saved in the ** `.tx` ** folder.
 
@@ -176,6 +176,8 @@ Asigne permisos de ejecución a los scripts con el siquiente comando.
 
 `cd transifex-tools/ && chmod +x *.sh`
 
+Ejecute **`tx-configure.sh`** para configurar todos los proyectos.
+
 Los archivos descargados son:
 
 1. `project.conf`
@@ -194,8 +196,6 @@ Los archivos descargados son:
 `nombre_del_proyecto = URL_del_proyecto`
 
 Si necesita agregar o quitar proyectos, edite **`project.conf`**.
-
-Ejecute **`tx-configure.sh`** para configurar todos los proyectos.
 
 La configuración se guarda en la carpeta **`.tx`**.
 
