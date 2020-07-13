@@ -21,6 +21,7 @@
 #ls dde-desktop_es.qm_* | sort -r | sed -n 1p
 
 #Obtener la lista de recursos para parchar - Get the patch resource list
+
 LIST_OF_PATCH=$(grep -E -v "^ *#|none" os_translations.conf | sed -e 's/  *//g; s/\t\t*/;/g')
 
 TRANSLATIONS_DIR=$(pwd)/translations/
@@ -28,7 +29,9 @@ MO_FILES_OS_DIR=/usr/share/locale/
 
 COUNT=1
 TOTAL_RESOURCES=$( echo $LIST_OF_PATCH | wc -w)
+
 #Para cada recurso - For each resource
+
 for i in $LIST_OF_PATCH; do
 	#statements
 	#echo $i
@@ -44,7 +47,9 @@ for i in $LIST_OF_PATCH; do
 	#echo $FIX_APP_NAME
 	echo "-----------------------------------------------"
 	
+
 	#Si la carpeta del recurso existe - If the resource folder exists
+
 	if [[ -d $DIR_RESOURCES ]]; then
 		#statements
 
@@ -54,6 +59,7 @@ for i in $LIST_OF_PATCH; do
 		MO_FOLDERS=$( ls -d */ 2> /dev/null)
 		#echo $MO_FOLDERS
 
+
 		#Si la carpeta de la aplicación existe - If the application folder exists
 		if [[ -d $DIR_SYSTEM ]]; then
 
@@ -62,6 +68,7 @@ for i in $LIST_OF_PATCH; do
 			echo $DIR_SYSTEM
 
 			LANG_PATCH=""
+
 			#Obtente idiomas parchados - Get patched languages
 			if [[ $( echo $DIR_SYSTEM | grep LC_MESSAGES ) ]]; then
 
@@ -95,6 +102,7 @@ for i in $LIST_OF_PATCH; do
 				LAST_BACKUP_PATCH=$(ls $j"_"* 2> /dev/null | sort -r | sed -n 1p)
 
 				if [[ $LAST_BACKUP_PATCH ]]; then
+
 
 					echo $LAST_BACKUP_PATCH → $j
 					sudo rm $j

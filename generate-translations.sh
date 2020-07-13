@@ -24,6 +24,16 @@ if [[ -z $(which /usr/lib/qt5/bin/lrelease) ]]; then
 	exit 1
 fi
 
+#Comprobar si msgfmt está instalado - #Check if msgfmt are installed
+if [[ -z $(which msgfmt) ]]; then
+	#statements
+	echo "The msgfmt command is necessary to generate translations files."
+	echo "Install msgfmt with the following command."
+	echo "sudo apt install gettext"
+
+	exit 1
+fi
+
 DIR_TRANSLATIONS="translations"
 APPLICACION_NAME=""
 
@@ -52,7 +62,7 @@ for DIR_APPLICATION in $(ls -d */ | sed "s|/||g"); do
 	ST_FILES=$( echo $ALL_FILES | sed "s| |\n|g" | grep -E "\.[tT][sS]$" )		#Obtenter solo los archivos .ts
 	PO_FILES=$( echo $ALL_FILES | sed "s| |\n|g" | grep -E "\.[pP][oO]$" )		#Obtenter solo los archivos .po
 
-	echo "-------FLES---------"
+	echo "-------FILES-------"
 	echo ".ts: "$ST_FILES
 	echo -e ".po: "$PO_FILES"\n"
 
