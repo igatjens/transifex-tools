@@ -72,6 +72,8 @@ Assign scripts execution permissions with the following command.
 
 Run ** `tx-configure.sh` ** to configure all projects.
 
+The configuration is saved in the ** `.tx` ** folder.
+
 The downloaded files are:
 
 1. `project.conf`
@@ -90,8 +92,6 @@ The downloaded files are:
 `project_name = project_ URL`
 
 If you need to add or remove projects, edit ** `project.conf` **.
-
-The configuration is saved in the ** `.tx` ** folder.
 
 ** `os_translations.conf` ** contains the index you specify:
 1. The location of the translations downloaded from
@@ -178,6 +178,8 @@ Asigne permisos de ejecución a los scripts con el siquiente comando.
 
 Ejecute **`tx-configure.sh`** para configurar todos los proyectos.
 
+La configuración se guarda en la carpeta **`.tx`**.
+
 Los archivos descargados son:
 
 1. `project.conf`
@@ -196,8 +198,6 @@ Los archivos descargados son:
 `nombre_del_proyecto = URL_del_proyecto`
 
 Si necesita agregar o quitar proyectos, edite **`project.conf`**.
-
-La configuración se guarda en la carpeta **`.tx`**.
 
 **`os_translations.conf`** contiene el índice que especifia:
 1. La ubicación de las traducciones descargadas desde
