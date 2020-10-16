@@ -1,0 +1,748 @@
+[main]
+host = https://www.transifex.com
+
+[dde-kwin.dde-kwin-xcb]
+file_filter = translations/dde-kwin.dde-kwin-xcb/<lang>.ts
+source_lang = en
+type = QT
+
+[dde-kwin.multitask-desktop]
+file_filter = translations/dde-kwin.multitask-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-album.deepin-album]
+file_filter = translations/deepin-album.deepin-album/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-album.desktop]
+file_filter = translations/deepin-album.desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-compress-multi-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-compress-multi-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-compress-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-compress-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-decompresshere-multi-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-decompresshere-multi-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-decompresshere-split-multi-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-decompresshere-split-multi-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-decompresshere-split-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-decompresshere-split-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-decompresshere-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-decompresshere-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-decompress-multi-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-decompress-multi-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-decompress-split-multi-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-decompress-split-multi-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-decompress-split-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-decompress-split-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-decompress-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-decompress-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-archive-manager.deepin-archive-manager-desktop-ts]
+file_filter = translations/deepin-archive-manager.deepin-archive-manager-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-boot-maker.deepin-boot-maker-desktop-ts]
+file_filter = translations/deepin-boot-maker.deepin-boot-maker-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-boot-maker.deepin-boot-maker-v2-ts]
+file_filter = translations/deepin-boot-maker.deepin-boot-maker-v2-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-calculator.deepin-calculator]
+file_filter = translations/deepin-calculator.deepin-calculator/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-calculator.deepin-calculator-desktop]
+file_filter = translations/deepin-calculator.deepin-calculator-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-camera.deepin-camera-ts]
+file_filter = translations/deepin-camera.deepin-camera-ts/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-camera.desktop-ts]
+file_filter = translations/deepin-camera.desktop-ts/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-defender.deepin-defender]
+file_filter = translations/deepin-defender.deepin-defender/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-defender.deepin-defender-datainterface]
+file_filter = translations/deepin-defender.deepin-defender-datainterface/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-defender.deepin-defender-desktop]
+file_filter = translations/deepin-defender.deepin-defender-desktop/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-defender.deepin-defender-policy]
+file_filter = translations/deepin-defender.deepin-defender-policy/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-defender.deepin-defender-scanDesktop]
+file_filter = translations/deepin-defender.deepin-defender-scanDesktop/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-desktop-environment.dde-api-device-unblock-bt-devices-policyts]
+file_filter = translations/deepin-desktop-environment.dde-api-device-unblock-bt-devices-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.dde-api-locale-helper-policyts]
+file_filter = translations/deepin-desktop-environment.dde-api-locale-helper-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.dde-calendar]
+file_filter = translations/deepin-desktop-environment.dde-calendar/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.dde-calendar_desktop]
+file_filter = translations/deepin-desktop-environment.dde-calendar_desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.dde-clipboard]
+file_filter = translations/deepin-desktop-environment.dde-clipboard/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.dde-control-center-domain]
+file_filter = translations/deepin-desktop-environment.dde-control-center-domain/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.dde-introduction]
+file_filter = translations/deepin-desktop-environment.dde-introduction/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.dde-introduction-desktop-ts]
+file_filter = translations/deepin-desktop-environment.dde-introduction-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.dde-network-utils]
+file_filter = translations/deepin-desktop-environment.dde-network-utils/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--dde-ab-recovery]
+file_filter = translations/deepin-desktop-environment.klu--dde-ab-recovery/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--dde-control-center]
+file_filter = translations/deepin-desktop-environment.klu--dde-control-center/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--dde-control-center-desktop]
+file_filter = translations/deepin-desktop-environment.klu--dde-control-center-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--dde-control-center_dialogs]
+file_filter = translations/deepin-desktop-environment.klu--dde-control-center_dialogs/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--dde-daemon-accounts-policyts]
+file_filter = translations/deepin-desktop-environment.klu--dde-daemon-accounts-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--dde-daemon-fprintd-policyts]
+file_filter = translations/deepin-desktop-environment.klu--dde-daemon-fprintd-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--dde-daemon-grub2-policyts]
+file_filter = translations/deepin-desktop-environment.klu--dde-daemon-grub2-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--dde-daemonpot]
+file_filter = translations/deepin-desktop-environment.klu--dde-daemonpot/<lang>.po
+source_lang = en
+type = PO
+
+[deepin-desktop-environment.klu--dde-session-ui]
+file_filter = translations/deepin-desktop-environment.klu--dde-session-ui/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--deepin-toggle-desktop]
+file_filter = translations/deepin-desktop-environment.klu--deepin-toggle-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20-5-1--dde-dock]
+file_filter = translations/deepin-desktop-environment.m20-5-1--dde-dock/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-ab-recovery]
+file_filter = translations/deepin-desktop-environment.m20--dde-ab-recovery/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-control-center]
+file_filter = translations/deepin-desktop-environment.m20--dde-control-center/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-control-center-desktop]
+file_filter = translations/deepin-desktop-environment.m20--dde-control-center-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-control-center_dialogs]
+file_filter = translations/deepin-desktop-environment.m20--dde-control-center_dialogs/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-daemon-accounts-policyts]
+file_filter = translations/deepin-desktop-environment.m20--dde-daemon-accounts-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-daemon-fprintd-policyts]
+file_filter = translations/deepin-desktop-environment.m20--dde-daemon-fprintd-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-daemon-grub2-policyts]
+file_filter = translations/deepin-desktop-environment.m20--dde-daemon-grub2-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-daemonpot]
+file_filter = translations/deepin-desktop-environment.m20--dde-daemonpot/<lang>.po
+source_lang = en
+type = PO
+
+[deepin-desktop-environment.m20--dde-dock]
+file_filter = translations/deepin-desktop-environment.m20--dde-dock/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-launcher]
+file_filter = translations/deepin-desktop-environment.m20--dde-launcher/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-polkit-agent]
+file_filter = translations/deepin-desktop-environment.m20--dde-polkit-agent/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-session-shell]
+file_filter = translations/deepin-desktop-environment.m20--dde-session-shell/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-session-ui]
+file_filter = translations/deepin-desktop-environment.m20--dde-session-ui/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--deepin-authentication-pam]
+file_filter = translations/deepin-desktop-environment.m20--deepin-authentication-pam/<lang>.po
+source_lang = en
+type = PO
+
+[deepin-desktop-environment.m20--deepin-authentication-policyts]
+file_filter = translations/deepin-desktop-environment.m20--deepin-authentication-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--deepin-recovery-gui]
+file_filter = translations/deepin-desktop-environment.m20--deepin-recovery-gui/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--deepin-recovery-tool]
+file_filter = translations/deepin-desktop-environment.m20--deepin-recovery-tool/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--deepin-toggle-desktop]
+file_filter = translations/deepin-desktop-environment.m20--deepin-toggle-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dpa-ext-gnomekeyring]
+file_filter = translations/deepin-desktop-environment.m20--dpa-ext-gnomekeyring/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--lastore-daemon]
+file_filter = translations/deepin-desktop-environment.m20--lastore-daemon/<lang>.po
+source_lang = en
+type = PO
+
+[deepin-desktop-environment.m5-0--dde-daemon-accounts-policyts]
+file_filter = translations/deepin-desktop-environment.m5-0--dde-daemon-accounts-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m5-0--dde-daemon-fprintd-policyts]
+file_filter = translations/deepin-desktop-environment.m5-0--dde-daemon-fprintd-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m5-0--dde-daemon-grub2-policyts]
+file_filter = translations/deepin-desktop-environment.m5-0--dde-daemon-grub2-policyts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m5-0--dde-daemonpot]
+file_filter = translations/deepin-desktop-environment.m5-0--dde-daemonpot/<lang>.po
+source_lang = en
+type = PO
+
+[deepin-desktop-environment.m5-0--deepin-authentication-pam]
+file_filter = translations/deepin-desktop-environment.m5-0--deepin-authentication-pam/<lang>.po
+source_lang = en
+type = PO
+
+[deepin-desktop-environment.maintain-20-0102--dde-dock]
+file_filter = translations/deepin-desktop-environment.maintain-20-0102--dde-dock/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.maintain-5-0-0101--deepin-toggle-desktop]
+file_filter = translations/deepin-desktop-environment.maintain-5-0-0101--deepin-toggle-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.maintain-5-0-0102--dde-session-shell]
+file_filter = translations/deepin-desktop-environment.maintain-5-0-0102--dde-session-shell/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.pgv--dde-ab-recovery]
+file_filter = translations/deepin-desktop-environment.pgv--dde-ab-recovery/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.pgv--dde-control-center]
+file_filter = translations/deepin-desktop-environment.pgv--dde-control-center/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.pgv--dde-control-center-desktop]
+file_filter = translations/deepin-desktop-environment.pgv--dde-control-center-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.pgv--dde-control-center_dialogs]
+file_filter = translations/deepin-desktop-environment.pgv--dde-control-center_dialogs/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-device-formatter.dde-device-formatter]
+file_filter = translations/deepin-device-formatter.dde-device-formatter/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-device-manager.dev-sp3--deepin-device-manager]
+file_filter = translations/deepin-device-manager.dev-sp3--deepin-device-manager/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-device-manager.dev-sp3--deepin-device-manager-desktop]
+file_filter = translations/deepin-device-manager.dev-sp3--deepin-device-manager-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-device-manager.dev-sp3--deepin-device-manager-policy]
+file_filter = translations/deepin-device-manager.dev-sp3--deepin-device-manager-policy/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-disk-utility.deepin-disk-utility]
+file_filter = translations/deepin-disk-utility.deepin-disk-utility/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-disk-utility.deepin-disk-utility-desktop-ts]
+file_filter = translations/deepin-disk-utility.deepin-disk-utility-desktop-ts/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-disk-utility.deepin-disk-utility-policy-ts]
+file_filter = translations/deepin-disk-utility.deepin-disk-utility-policy-ts/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-document-viewer.deepin-document-viewer]
+file_filter = translations/deepin-document-viewer.deepin-document-viewer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-document-viewer.deepin-document-viewer-desktop-ts]
+file_filter = translations/deepin-document-viewer.deepin-document-viewer-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-draw.deepin-draw]
+file_filter = translations/deepin-draw.deepin-draw/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-draw.deepin-draw-desktop]
+file_filter = translations/deepin-draw.deepin-draw-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-file-manager.dde-computer-desktop]
+file_filter = translations/deepin-file-manager.dde-computer-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-file-manager.dde-desktop]
+file_filter = translations/deepin-file-manager.dde-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-file-manager.dde-disk-mount-plugin]
+file_filter = translations/deepin-file-manager.dde-disk-mount-plugin/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-file-manager.dde-file-manager]
+file_filter = translations/deepin-file-manager.dde-file-manager/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-file-manager.dde-file-manager-desktop]
+file_filter = translations/deepin-file-manager.dde-file-manager-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-file-manager.dde-file-manager-lib]
+file_filter = translations/deepin-file-manager.dde-file-manager-lib/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-file-manager.dde-home-desktop]
+file_filter = translations/deepin-file-manager.dde-home-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-file-manager.dde-trash-desktop]
+file_filter = translations/deepin-file-manager.dde-trash-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-font-manager.deepin-font-manager]
+file_filter = translations/deepin-font-manager.deepin-font-manager/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-font-manager.deepin-font-manager-desktop]
+file_filter = translations/deepin-font-manager.deepin-font-manager-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-graphics-driver-manager.deepin-dgradrimgr-gltest]
+file_filter = translations/deepin-graphics-driver-manager.deepin-dgradrimgr-gltest/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-graphics-driver-manager.deepin-dgradrimgr-notify]
+file_filter = translations/deepin-graphics-driver-manager.deepin-dgradrimgr-notify/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-graphics-driver-manager.deepin-graphics-driver-manager]
+file_filter = translations/deepin-graphics-driver-manager.deepin-graphics-driver-manager/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-graphics-driver-manager.deepin-graphics-driver-manager_desktop]
+file_filter = translations/deepin-graphics-driver-manager.deepin-graphics-driver-manager_desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-image-viewer.deepin-image-viewer]
+file_filter = translations/deepin-image-viewer.deepin-image-viewer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-image-viewer.deepin-image-viewer-desktop-ts]
+file_filter = translations/deepin-image-viewer.deepin-image-viewer-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-installer-reborn.deepin-installer]
+file_filter = translations/deepin-installer-reborn.deepin-installer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-installer-reborn.deepin-installer-timezones]
+file_filter = translations/deepin-installer-reborn.deepin-installer-timezones/<lang>.po
+source_lang = en
+type = PO
+
+[deepin-installer-reborn.klu0102--deepin-installer]
+file_filter = translations/deepin-installer-reborn.klu0102--deepin-installer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-installer-reborn.klu0102--deepin-installer-timezones]
+file_filter = translations/deepin-installer-reborn.klu0102--deepin-installer-timezones/<lang>.po
+source_lang = en
+type = PO
+
+[deepin-log-viewer.deepin-log-viewer]
+file_filter = translations/deepin-log-viewer.deepin-log-viewer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-log-viewer.deepin-log-viewer-desktop-ts]
+file_filter = translations/deepin-log-viewer.deepin-log-viewer-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-log-viewer.deepin-log-viewer-policy-auth-ts]
+file_filter = translations/deepin-log-viewer.deepin-log-viewer-policy-auth-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-log-viewer.deepin-log-viewer-policy-truncate-ts]
+file_filter = translations/deepin-log-viewer.deepin-log-viewer-policy-truncate-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-log-viewer.rpm-euler--deepin-log-viewer]
+file_filter = translations/deepin-log-viewer.rpm-euler--deepin-log-viewer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-log-viewer.rpm-euler--deepin-log-viewer-desktop-ts]
+file_filter = translations/deepin-log-viewer.rpm-euler--deepin-log-viewer-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-log-viewer.rpm-euler--deepin-log-viewer-policy-ts]
+file_filter = translations/deepin-log-viewer.rpm-euler--deepin-log-viewer-policy-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-mail.deepin-mail-desktop-ts]
+file_filter = translations/deepin-mail.deepin-mail-desktop-ts/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-mail.deepin-mail-v2-ts]
+file_filter = translations/deepin-mail.deepin-mail-v2-ts/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-manual.deepin-manual]
+file_filter = translations/deepin-manual.deepin-manual/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-manual.desktopts]
+file_filter = translations/deepin-manual.desktopts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-movie.deepin-movie-desktop]
+file_filter = translations/deepin-movie.deepin-movie-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-movie.deepin-movie_v3]
+file_filter = translations/deepin-movie.deepin-movie_v3/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-music.deepin-music]
+file_filter = translations/deepin-music.deepin-music/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-music.deepin-music-desktop-ts]
+file_filter = translations/deepin-music.deepin-music-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-package-manager.deepin-deb-installer]
+file_filter = translations/deepin-package-manager.deepin-deb-installer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-package-manager.deepin-deb-installer_desktop]
+file_filter = translations/deepin-package-manager.deepin-deb-installer_desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-package-manager.deepin-deb-installer-policy-ts]
+file_filter = translations/deepin-package-manager.deepin-deb-installer-policy-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-print-manager.dde-printer]
+file_filter = translations/deepin-print-manager.dde-printer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-print-manager.dde-printer-helper]
+file_filter = translations/deepin-print-manager.dde-printer-helper/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-print-manager.desktopts]
+file_filter = translations/deepin-print-manager.desktopts/<lang>.ts
+source_lang = en
+type = QT
+
+[scan-assistant.desktopts]
+file_filter = translations/scan-assistant.desktopts/<lang>.ts
+source_lang = en_US
+type = QT
+
+[scan-assistant.scan-assistantts]
+file_filter = translations/scan-assistant.scan-assistantts/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-screen-recorder.deepin-screen-recorder]
+file_filter = translations/deepin-screen-recorder.deepin-screen-recorder/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-screen-recorder.desktop]
+file_filter = translations/deepin-screen-recorder.desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-store-5.deepin-appstore]
+file_filter = translations/deepin-store-5.deepin-appstore/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-store-5.desktopts]
+file_filter = translations/deepin-store-5.desktopts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-store-5.web]
+file_filter = translations/deepin-store-5.web/<lang>.xlf
+source_lang = en
+type = XLIFF
+
+[deepin-system-monitor.deepin-system-monitor]
+file_filter = translations/deepin-system-monitor.deepin-system-monitor/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-system-monitor.deepin-system-monitor-desktop]
+file_filter = translations/deepin-system-monitor.deepin-system-monitor-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-system-monitor.deepin-system-monitor-policy]
+file_filter = translations/deepin-system-monitor.deepin-system-monitor-policy/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-terminal.deepin-terminal]
+file_filter = translations/deepin-terminal.deepin-terminal/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-terminal.deepin-terminal-desktop]
+file_filter = translations/deepin-terminal.deepin-terminal-desktop/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-terminal.terminalwidget]
+file_filter = translations/deepin-terminal.terminalwidget/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-editor.deepin-editor]
+file_filter = translations/deepin-editor.deepin-editor/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-editor.deepin-editor-desktop-ts]
+file_filter = translations/deepin-editor.deepin-editor-desktop-ts/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-tool-kit.master--dwidget]
+file_filter = translations/deepin-tool-kit.master--dwidget/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-voice-notes.deepin-voice-notes]
+file_filter = translations/deepin-voice-notes.deepin-voice-notes/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-voice-notes.desktop]
+file_filter = translations/deepin-voice-notes.desktop/<lang>.ts
+source_lang = en
+type = QT
+
