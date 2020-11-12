@@ -131,8 +131,8 @@ file_filter = translations/deepin-defender.deepin-defender-policy/<lang>.ts
 source_lang = en_US
 type = QT
 
-[deepin-defender.deepin-defender-scanDesktop]
-file_filter = translations/deepin-defender.deepin-defender-scanDesktop/<lang>.ts
+[deepin-defender.deepin-defender-scandesktop]
+file_filter = translations/deepin-defender.deepin-defender-scandesktop/<lang>.ts
 source_lang = en_US
 type = QT
 
@@ -153,11 +153,6 @@ type = QT
 
 [deepin-desktop-environment.dde-calendar_desktop]
 file_filter = translations/deepin-desktop-environment.dde-calendar_desktop/<lang>.ts
-source_lang = en
-type = QT
-
-[deepin-desktop-environment.dde-clipboard]
-file_filter = translations/deepin-desktop-environment.dde-clipboard/<lang>.ts
 source_lang = en
 type = QT
 
@@ -221,8 +216,18 @@ file_filter = translations/deepin-desktop-environment.klu--dde-daemonpot/<lang>.
 source_lang = en
 type = PO
 
+[deepin-desktop-environment.klu--dde-polkit-agent]
+file_filter = translations/deepin-desktop-environment.klu--dde-polkit-agent/<lang>.ts
+source_lang = en
+type = QT
+
 [deepin-desktop-environment.klu--dde-session-ui]
 file_filter = translations/deepin-desktop-environment.klu--dde-session-ui/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.klu--deepin-recovery-gui]
+file_filter = translations/deepin-desktop-environment.klu--deepin-recovery-gui/<lang>.ts
 source_lang = en
 type = QT
 
@@ -238,6 +243,11 @@ type = QT
 
 [deepin-desktop-environment.m20--dde-ab-recovery]
 file_filter = translations/deepin-desktop-environment.m20--dde-ab-recovery/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-desktop-environment.m20--dde-clipboard]
+file_filter = translations/deepin-desktop-environment.m20--dde-clipboard/<lang>.ts
 source_lang = en
 type = QT
 
@@ -641,8 +651,23 @@ file_filter = translations/deepin-package-manager.deepin-deb-installer-policy-ts
 source_lang = en
 type = QT
 
+[deepin-phone-assistant.deepin-phone-assistant]
+file_filter = translations/deepin-phone-assistant.deepin-phone-assistant/<lang>.ts
+source_lang = en_US
+type = QT
+
+[deepin-phone-assistant.deepin-phone-assistant-desktop]
+file_filter = translations/deepin-phone-assistant.deepin-phone-assistant-desktop/<lang>.ts
+source_lang = en_US
+type = QT
+
 [deepin-print-manager.dde-printer]
 file_filter = translations/deepin-print-manager.dde-printer/<lang>.ts
+source_lang = en
+type = QT
+
+[deepin-print-manager.dde-printer-desktop]
+file_filter = translations/deepin-print-manager.dde-printer-desktop/<lang>.ts
 source_lang = en
 type = QT
 
