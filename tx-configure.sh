@@ -14,7 +14,33 @@
 #-  notes   : 
 #-==============================================================================
 
+#Comprobar si pip, git y tx están instalados - #Check if pip, git and tx are installed
+if [[ -z $(which pip) ]]; then
+	#statements
+	echo "The pip command is necessary to configure translations."
+	echo "Install pip with the following command."
+	echo "sudo apt install python-pip"
 
+	exit 1
+fi
+
+if [[ -z $(which git) ]]; then
+	#statements
+	echo "The git command is necessary to configure translations."
+	echo "Install git with the following command."
+	echo "sudo apt install git"
+
+	exit 1
+fi
+
+if [[ -z $(which tx) ]]; then
+	#statements
+	echo "The tx command is necessary to configure translations."
+	echo "Install tx with the following command."
+	echo "sudo pip install transifex-client"
+
+	exit 1
+fi
 
 #Eliminar lineas en blando de projects.conf - #Remove blank lines from projects.conf
 sed -i '/^ *$/d' projects.conf
