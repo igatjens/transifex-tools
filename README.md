@@ -36,7 +36,7 @@ Must obtain a token to log into transifex by console. The client needs a Transif
 ## Install client
 The client is to be used in the terminal, it is installed with the following commands.
 
-`sudo apt install python-pip git`
+`sudo apt install python3-pip git`
 
 `sudo pip install transifex-client`
 
@@ -142,7 +142,7 @@ Debe obtener un token para iniciar sesión en transifex por consola. El cliente 
 ## Instalar cliente
 El cliente es para usarse en la terminal, se instala con los siguiente comandos.
 
-`sudo apt install python-pip git`
+`sudo apt install python3-pip git`
 
 `sudo pip install transifex-client`
 
